@@ -1,0 +1,32 @@
+body {
+  font-family: monospace;
+}
+
+.grid-container {
+    margin-left: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    margin-right:10%;
+}
+
+h2, h3{
+  border-color: #ff6347;
+  background-color: #ff6347;
+  border: 5px;
+  color: white;
+
+}
+
+#report {
+  margin-left: 10%;
+  margin-right: 10%;
+  border: 1px black solid ;
+  padding: 20px;
+}
+
+#computer_logo {
+  height: 65%;
+  width:50%;
+
+}
